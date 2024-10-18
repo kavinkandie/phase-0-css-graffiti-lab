@@ -1,1 +1,46 @@
 /* write your override styles here */
+/* Adding styles for each tag */
+#tag-1 {
+    background-color: #ffcc00;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  #tag-2 {
+    background-color: #00ccff;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  #tag-3.slick {
+    background-color: #ff6699;
+    height: 100px;
+    width: 100%;
+    margin: 10px 0;
+    transition: transform 0.3s;
+  }
+  
+  #tag-3.slick:hover {
+    transform: scale(1.05);
+  }
+  
+  .parent {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  div {
+    padding: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 600px) {
+    div {
+      font-size: 14px;
+    }
+  }
+  
